@@ -12,7 +12,10 @@ import {registerAction} from 'src/app/auth/store/actions'
 export class RegisterComponent implements OnInit {
   form: FormGroup
 
-  constructor(private fb: FormBuilder, private store: Store) {}
+  constructor (
+    private fb: FormBuilder, 
+    private store: Store
+  ) {}
 
   ngOnInit(): void {
     this.initializeForm()
