@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "medium-clone-ngrx"
+    }
+  },
+  "defaultProject": "medium-clone-ngrx",
+  "cli": {
+    "analytics": false
+  }
 }
